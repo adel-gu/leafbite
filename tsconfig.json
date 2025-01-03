@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "removeComments": false,
+    "baseUrl": "",
+    "paths": {
+      "@leafbite/*": ["packages/*/lib"]
+    }
+  },
+  "exclude": ["node_modules", "**/*.test.*", "**/lib"]
+}

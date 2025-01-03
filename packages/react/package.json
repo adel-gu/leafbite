@@ -1,0 +1,10 @@
+{
+  "name": "@leafbite/react",
+  "packageManager": "yarn@4.6.0",
+  "dependencies": {
+    "@leafbite/foundation": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

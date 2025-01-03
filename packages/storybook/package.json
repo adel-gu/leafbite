@@ -1,0 +1,11 @@
+{
+  "name": "@leafbite/storybook",
+  "packageManager": "yarn@4.6.0",
+  "dependencies": {
+    "@leafbite/foundation": "workspace:^",
+    "@leafbite/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

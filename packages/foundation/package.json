@@ -1,9 +1,6 @@
 {
-  "name": "leafbite",
+  "name": "@leafbite/foundation",
   "packageManager": "yarn@4.6.0",
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "typescript": "^5.7.2"
   }

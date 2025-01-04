@@ -1,11 +1,15 @@
 {
   "name": "@leafbite/foundation",
   "packageManager": "yarn@4.6.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "devDependencies": {
     "style-dictionary": "^4.3.0",
     "typescript": "^5.7.2"
   },
   "scripts": {
-    "build-tokens": "style-dictionary build --config sd.config.js"
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck"
   }
 }

@@ -3,7 +3,8 @@
   "packageManager": "yarn@4.6.0",
   "dependencies": {
     "@leafbite/foundation": "workspace:^",
-    "@leafbite/react": "workspace:^"
+    "@leafbite/react-styled": "workspace:^",
+    "@leafbite/react-tailwind": "workspace:^"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.3",

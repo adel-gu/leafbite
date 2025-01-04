@@ -1,11 +1,10 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "/src",
+    "baseUrl": "./stories",
     "outDir": "./lib",
     "downlevelIteration": true,
-    "target": "ESNext",
-    "jsx": "react"
+    "jsx": "react-jsx"
   },
-  "include": ["./src"]
+  "include": ["./stories"]
 }

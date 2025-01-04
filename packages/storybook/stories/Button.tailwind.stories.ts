@@ -1,9 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Button } from '@leafbite/react-styled';
+import { Button } from '@leafbite/react-tailwind';
+import '@leafbite/react-tailwind/lib/output.css';
+
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta: Meta<typeof Button> = {
-  title: 'Styled/Button',
+  title: 'Tailwind/Button',
   component: Button,
 };
 
@@ -14,19 +16,5 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     children: 'Button',
-  },
-};
-
-export const Danger: Story = {
-  args: {
-    children: 'Danger Button',
-    color: 'danger',
-  },
-};
-
-export const Warning: Story = {
-  args: {
-    children: 'Warning Button',
-    color: 'warning',
   },
 };

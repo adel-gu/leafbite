@@ -691,9 +691,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@leafbite/react@workspace:^, @leafbite/react@workspace:packages/react":
+"@leafbite/react-styled@workspace:^, @leafbite/react-styled@workspace:packages/react-styled":
   version: 0.0.0-use.local
-  resolution: "@leafbite/react@workspace:packages/react"
+  resolution: "@leafbite/react-styled@workspace:packages/react-styled"
   dependencies:
     "@leafbite/foundation": "workspace:^"
     "@types/react": "npm:^18.2.0"
@@ -701,6 +701,22 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     styled-components: "npm:^6.1.14"
+    typescript: "npm:^5.7.2"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  languageName: unknown
+  linkType: soft
+
+"@leafbite/react-tailwind@workspace:^, @leafbite/react-tailwind@workspace:packages/react-tailwind":
+  version: 0.0.0-use.local
+  resolution: "@leafbite/react-tailwind@workspace:packages/react-tailwind"
+  dependencies:
+    "@leafbite/foundation": "workspace:^"
+    "@types/react": "npm:^18.2.0"
+    "@types/react-dom": "npm:^18.2.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
     tailwindcss: "npm:^3.4.17"
     typescript: "npm:^5.7.2"
   peerDependencies:
@@ -715,7 +731,8 @@ __metadata:
   dependencies:
     "@chromatic-com/storybook": "npm:^3.2.3"
     "@leafbite/foundation": "workspace:^"
-    "@leafbite/react": "workspace:^"
+    "@leafbite/react-styled": "workspace:^"
+    "@leafbite/react-tailwind": "workspace:^"
     "@storybook/addon-essentials": "npm:^8.4.7"
     "@storybook/addon-interactions": "npm:^8.4.7"
     "@storybook/addon-onboarding": "npm:^8.4.7"

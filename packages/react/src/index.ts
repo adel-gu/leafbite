@@ -1,3 +1,1 @@
-const Hello = (name?: string) => `${name ?? 'World'}`;
-
-export default Hello;
+export { Button } from './Button/Button';

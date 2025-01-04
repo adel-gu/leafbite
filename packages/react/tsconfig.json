@@ -5,7 +5,7 @@
     "outDir": "./lib",
     "downlevelIteration": true,
     "target": "ESNext",
-    "jsx": "react-jsx"
+    "jsx": "react"
   },
   "include": ["./src"]
 }
